@@ -1,5 +1,5 @@
-# Semi‑Empirical Modeling for boundary density
-Small, single‑purpose Python scripts for component‑wise **semi‑empirical** regression. The workflow uses a **single, fixed** benchmark transport length $\lambda$ (derived from morphology) across components and reports both in‑sample $R^2$ and LOO‑CV $Q^2$ on the native response scale.
+# Semi‑Empirical Modeling for BD
+Small, single‑purpose Python scripts for component‑wise **semi‑empirical** regression for boundary density (BD). The workflow uses a **single, fixed** benchmark transport length $\lambda$ (derived from morphology) across components and reports both in‑sample $R^2$ and LOO‑CV $Q^2$ on the native response scale.
 
 - Semi‑empirical fits for $\eta_{\mathrm{kin}},\ \eta_{\mathrm{RHF}},\ \eta_{\mathrm{RCL}},\ \eta_{\mathrm{res}}$ with **one shared $\lambda$**.
 - Metrics: in‑sample $R^2$ and predictive $Q^2$ (leave‑one‑out refitting).
