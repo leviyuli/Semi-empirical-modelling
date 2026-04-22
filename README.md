@@ -20,8 +20,7 @@ $\eta_{\mathrm{kin}}(B_D; b, j_0)=b\,\log_{10}\left(\dfrac{j}{j_0}\right)+b\,\lo
 ### High‑frequency ohmic (fit $R_{\mathrm{HF},0},\ R_{\mathrm{HF},s}$)
 Work on $R_{\mathrm{HF}}=\eta_{\mathrm{RHF}}/j$. With fixed $\lambda$:
 
-Latex code:
-R_{\mathrm{HF}}(B_D)=R_{\mathrm{HF},0}+R_{\mathrm{HF},s}\left(\dfrac12+\dfrac{1}{\lambda B_D}\right)=\underbrace{\big(R_{\mathrm{HF},0}+\tfrac12 R_{\mathrm{HF},s}\big)}_{a}+\underbrace{\left(\dfrac{R_{\mathrm{HF},s}}{\lambda}\right)}_{b}\dfrac{1}{B_D}
+$$ R_{\mathrm{HF}}(B_D)=R_{\mathrm{HF},0}+R_{\mathrm{HF},s}\left(\dfrac12+\dfrac{1}{\lambda B_D}\right)=\underbrace{\big(R_{\mathrm{HF},0}+\tfrac12 R_{\mathrm{HF},s}\big)}_{a}+\underbrace{\left(\dfrac{R_{\mathrm{HF},s}}{\lambda}\right)}_{b}\dfrac{1}{B_D} $$
 
 ### Catalyst‑layer (fit $R_{\mathrm{CL},s}$; use $b$ from kinetics)
 $$\eta_{\mathrm{RCL}}(B_D; R_{\mathrm{CL},s}) = \frac{b}{\alpha}\,\log_{10}（\{1 + (\frac{j \ln 10}{2b}\,R_{\mathrm{CL},s}( \frac{1}{2} + \frac{1}{\lambda B_D} ))^{\alpha}\}）$$
